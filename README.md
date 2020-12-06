@@ -2,7 +2,7 @@
 
 
 # 效果演示
-![演示](https://github.com/pcrbot/fake_message/cs.png) 
+![演示](https://github.com/pcrbot/fake_message/blob/main/cs.png) 
 
 
 # 安装方块
