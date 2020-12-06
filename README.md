@@ -15,4 +15,4 @@ HoshinoBot/hoshino/modules/fake_message/fake_message/__init_.py
 
 # 指令
 
-<假消息 @用户 名字 消息>生成假消息，@用户可以直接替换成QQ号
+<假消息 @用户 名字 消息>生成假消息，@用户可以直接替换成QQ号，多条消息用回车分割
