@@ -9,7 +9,6 @@ async def fake_mes(bot, ev):
 
     mes = ev["raw_message"][3:].strip()
     data = produce_fake_mes(mes)
-    print(data)
 
     await bot.send_group_forward_msg(group_id=ev['group_id'], messages=data)
 

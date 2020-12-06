@@ -31,7 +31,7 @@ def produce_fake_mes(mes:str):
 
     for mes in mes_list:
         uid,name,message = mes
-        name = name.replace("[CQ:at,qq=","").replace("]","")
+        uid = uid.replace("[CQ:at,qq=","").replace("]","")
 
         data = {
             "type": "node",
