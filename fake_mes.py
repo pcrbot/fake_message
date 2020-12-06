@@ -7,7 +7,7 @@ SPLIT_TEXT = "\n"
 
 def split_mes(mes:str):
     # 把整条消息分割成列表
-    mes = mes.replace("[CQ:at,qq=","").replace("]","")
+    #mes = mes.replace("[CQ:at,qq=","").replace("]","")
     mes_list = mes.split(SPLIT_TEXT)
 
     for i in range(len(mes_list)):
@@ -31,6 +31,8 @@ def produce_fake_mes(mes:str):
 
     for mes in mes_list:
         uid,name,message = mes
+        name = name.replace("[CQ:at,qq=","").replace("]","")
+
         data = {
             "type": "node",
             "data": {
