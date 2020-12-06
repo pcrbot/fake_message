@@ -8,6 +8,7 @@ SPLIT_TEXT = "\n"
 def split_mes(mes:str):
     # 把整条消息分割成列表
     #mes = mes.replace("[CQ:at,qq=","").replace("]","")
+    mes = mes.replace("\r\n","\n")
     mes_list = mes.split(SPLIT_TEXT)
 
     for i in range(len(mes_list)):
