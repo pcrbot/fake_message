@@ -6,11 +6,11 @@
 
 
 # 安装方块
-在HoshinoBot/hoshino/modules/文件夹下新建文件夹fake_message，然后cd到fake_message文件夹里使用git拉取项目
+在HoshinoBot/hoshino/modules/文件夹下使用git拉取项目
 
 安装完路径应该是
 ```
-HoshinoBot/hoshino/modules/fake_message/fake_message/__init_.py
+HoshinoBot/hoshino/modules/fake_message/fake_message.py
 ```
 
 # 指令
